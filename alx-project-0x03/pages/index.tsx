@@ -1,13 +1,9 @@
-import Layout from "@/components/layouts/Layout";
-
-function Home() {
+const Home = () => {
   return (
-    <>
-      <Layout children={undefined} />
-
-      <h1>Welcome to Splash App</h1>
-    </>
+    <div>
+      <h1> Welcome to Splash App </h1>
+    </div>
   );
-}
+};
 
 export default Home;
